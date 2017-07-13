@@ -2,10 +2,13 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyProducts.WebApi;
 using MyProducts.WebApi.Controllers;
+using System.Diagnostics.CodeAnalysis;
+using SoftwareApproach.TestingExtensions;
 
 namespace MyProducts.Tests.Controllers
 {
     [TestClass]
+    [ExcludeFromCodeCoverage]
     public class HomeControllerTest
     {
         [TestMethod]
